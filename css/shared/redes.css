@@ -1,0 +1,18 @@
+.containeresdesociais {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.SessaoRedes {
+    width: 242%;
+    height: 50vh;
+    background: var(--background-linear);
+    display: flex;
+    justify-content: space-evenly;
+}
+.SessaoRedes span {
+    height: 50vh;
+}
+.SessaoRedes picture {
+    height: 50vh;
+}
