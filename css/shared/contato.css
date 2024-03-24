@@ -1,9 +1,9 @@
 .ContainerContato {
     width: var(--width-padrao);
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8rem 0px 5rem 0px;
 }
 .SessaoContato {
     display: flex;
