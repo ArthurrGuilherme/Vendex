@@ -26,7 +26,7 @@ let slideInterval
         const slideItem = slideItems[index]
         const slideWidth = slideItem.clientWidth
         const windowWidth = document.body.clientWidth
-        const margin = (windowWidth - slideWidth) / 2
+        const margin = (windowWidth - slideWidth) / 3
         const position = margin - (index * slideWidth)
         return position
         }
@@ -86,7 +86,7 @@ let slideInterval
                 
         const penultimateSlide = slideItems[slideItems.length = 0].cloneNode(true)
         penultimateSlide.classList.add('slide-cloned')
-        penultimateSlide.dataset.index = -2
+        penultimateSlide.dataset.index = -1
                 
         slideList.append(firstSlide)
         slideList.append(secondSlide)
@@ -112,7 +112,7 @@ let slideInterval
         }
                 
     function onMouseUp(event) {
-        const pointsToMove = event.type.includes('touch') ? 50 : 150
+        const pointsToMove = event.type.includes('touch') ? 150 : 150
             if(state.movement < -pointsToMove) {
                 nextSlide()
             } else if (state.movement > pointsToMove) {
@@ -205,7 +205,7 @@ let slideInterval
     })
     }
                 
-    function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 3000}) {
+    function initSlider({startAtIndex = 0, autoPlay = true, timeInterval = 1000}) {
         state.autoPlay = autoPlay
         state.timeInterval = timeInterval
         createControlButtons()
