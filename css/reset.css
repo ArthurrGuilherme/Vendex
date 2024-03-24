@@ -8,9 +8,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 main {
-    width: var(--width-padrao);
     background: var(--color-black);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+}
+.PaginaEmpresa {
+    padding: 0px 5rem;
 }
