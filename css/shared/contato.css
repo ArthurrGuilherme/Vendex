@@ -35,7 +35,7 @@
     color: var(--color-black);
     font-weight: 900;
 } 
-.TextoContato button {
+.TextoContato a {
     background: #f2669e00;
     border: 2px solid #fff;
     padding: .5rem;
@@ -44,8 +44,9 @@
     width: 30%;
     cursor: pointer;
     transition: all .5s;
+    text-align: center;
 }
-.TextoContato button:hover {
+.TextoContato a:hover {
     background: var(--color-white);
     color: var(--color-black);
     border-radius: 5px;
