@@ -70,10 +70,9 @@
         gap: 1rem;
     }
     #redescontato {
-        height: 60vh;
+        padding: 0px;
     }
     #SessaoRedes {
-        width: 85%;
         border-radius: 40px;
     }
     #IconsRedes {
