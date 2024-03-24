@@ -73,7 +73,8 @@
         height: 60vh;
     }
     #SessaoRedes {
-        width: 100%;
+        width: 85%;
+        border-radius: 40px;
     }
     #IconsRedes {
         width: 100px;
