@@ -27,13 +27,13 @@
     max-height: 100%;
 }
 .TextoContato h3 {
-    font-size: 1.4rem;
-}
-.TextoContato h1 {
     font-size: 2.2rem;
     letter-spacing: .1rem;
     color: var(--color-black);
     font-weight: 900;
+}
+.TextoContato h1 {
+    font-size: 1.4rem;
 } 
 .TextoContato a {
     background: #f2669e00;

@@ -45,6 +45,7 @@ footer article {
     align-items: center;
     justify-content: center;
 }
-.desevolvedor h4 {
+.desevolvedor h1 {
+    font-size: 1rem;
     color: var(--color-black);
 }
