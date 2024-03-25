@@ -45,3 +45,6 @@ footer article {
     align-items: center;
     justify-content: center;
 }
+.desevolvedor h4 {
+    color: var(--color-white);
+}
