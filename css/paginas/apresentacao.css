@@ -13,7 +13,7 @@
         font-size: 3rem;
         font-weight: 900;
     }
-    .Titulopaginas h4 {
+    .Titulopaginas p {
         font-weight: 900;
         font-size: 1.3rem;
     }
@@ -40,6 +40,7 @@
         }
         .TextoConteudo span P {
             font-size: 1.2rem;
+            font-weight: 900;
         }
         .TextoConteudo span h1 {
             font-size: 1.8rem;
