@@ -1,0 +1,21 @@
+#ContainerPrimario {
+    background: url(../img/ImgPrinciapl.webp) center;
+    background-size: cover;
+}
+#ContainerTexto {
+    padding: 1.5rem 0px;
+}
+#FormInput {
+    background-color: var(--vendex-input);
+    border-color: var(--vendex-input);
+    border-radius: var(--vendex-radius);
+    color: var(--bs-white);
+}
+#FormInput::placeholder {
+    color: var(--vendex-placeholder);
+}
+#BtnForms {
+    background: var(--vendex-rosa);
+    border: var(--vendex-rosa);
+    border-radius: var(--vendex-radius);
+}

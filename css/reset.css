@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{ 
     margin: 0;
     padding: 0;
     border: 0;
     text-decoration: none;
     list-style: none;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 :root {
     --vendex-rosa: #cb6ce6;
+    --vendex-placeholder: rgba(251, 251, 251, 0.84);
+    --vendex-input: #ffffff21;
+    --vendex-radius: 112px 112px 112px 112px;;
 }

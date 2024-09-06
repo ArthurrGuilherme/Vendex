@@ -1,15 +1,24 @@
-header {
-    background: var(--vendex-rosa);
-}
-.LogoImg {
-    width: 35%;
-}
-.dropdown-menu {
-    background: var(--vendex-rosa) !important;
-}
-
-/*Efeito*/
-.dropdown-item:hover {
-    background: var(--vendex-rosa) !important;
-}
-/*Efeito*/
+/*Header*/
+    header {
+        background: var(--vendex-rosa);
+    }
+    .LogoImg {
+        width: 35%;
+    }
+    .dropdown-menu {
+        background: var(--vendex-rosa) !important;
+    }
+    /*Efeito*/
+        .dropdown-item:hover {
+            background: var(--vendex-rosa) !important;
+        }
+    /*Efeito*/
+/*Header*/
+/*Vareaveis Globais*/
+    strong {
+        color: var(--vendex-rosa);
+    }
+    p {
+        margin: 0 !important;
+    }
+/*Vareaveis Globais*/
