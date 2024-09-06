@@ -11,7 +11,15 @@
     }
     /*.carousel-container {
         width: 100px; Exibe 1 ícone por vez em dispositivos móveis 
-      }*/
+    }*/
+    .carousel {
+        height: 85vh;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    svg {
+        width: 20%;
+    }
 }
 @media only screen and (max-width: 721px) {
     #ContainerPrimario {
@@ -40,20 +48,29 @@
     #ContainerPrimario {
         height: 105vh;
     }
+    .carousel {
+        height: 90vh;
+    }
 }
 @media only screen and (max-width: 390px) {
     #ContainerPrimario {
-        height: 113vh;
+        height: 115vh;
     }
 }
 @media only screen and (max-width: 380px) {
     #ContainerPrimario {
         height: 140vh;
     }
+    .carousel {
+        height: 115vh;
+    }
 }
 @media only screen and (max-width: 360px) {
     #ContainerPrimario {
         height: 125vh;
+    }
+    .carousel {
+        height: 105vh;
     }
 }
 
