@@ -25,4 +25,7 @@
     #ContainerTexto {
         padding: 1.5rem 0px;
     }
+    .DisplayMobile {
+        display: none;
+    }
 /*Vareaveis Globais*/
