@@ -20,6 +20,10 @@
     svg {
         width: 20%;
     }
+    #SectionSecundario {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 721px) {
     #ContainerPrimario {
@@ -50,6 +54,9 @@
     }
     .carousel {
         height: 90vh;
+    }
+    #ImgSecundario {
+        width: 80%;
     }
 }
 @media only screen and (max-width: 390px) {
