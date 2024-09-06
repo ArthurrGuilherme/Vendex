@@ -4,3 +4,12 @@ header {
 .LogoImg {
     width: 35%;
 }
+.dropdown-menu {
+    background: var(--vendex-rosa) !important;
+}
+
+/*Efeito*/
+.dropdown-item:hover {
+    background: var(--vendex-rosa) !important;
+}
+/*Efeito*/
