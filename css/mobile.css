@@ -9,6 +9,9 @@
     #Form {
         width: 100% !important;
     }
+    /*.carousel-container {
+        width: 100px; Exibe 1 ícone por vez em dispositivos móveis 
+      }*/
 }
 @media only screen and (max-width: 721px) {
     #ContainerPrimario {
@@ -53,3 +56,4 @@
         height: 125vh;
     }
 }
+
