@@ -1,0 +1,8 @@
+@media only screen and (max-width: 585px) {
+    #NavLogo {
+        width: 50%;
+    }
+    .LogoImg {
+        width: 90%;
+    }
+}
