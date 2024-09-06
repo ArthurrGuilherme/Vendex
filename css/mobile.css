@@ -2,12 +2,27 @@
     #ContainerPrimario {
         background: url(../img/mobile/ImgPrincipaMobilr.webp) top;
         background-size: cover;
-        height: 100vh;
+        height: 115vh;
         display: flex;
         align-items: end;
     }
     #Form {
         width: 100% !important;
+    }
+}
+@media only screen and (max-width: 721px) {
+    #ContainerPrimario {
+        height: 110vh;
+    }
+}
+@media only screen and (max-width: 657px) {
+    #ContainerPrimario {
+        height: 105vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #ContainerPrimario {
+        height: 100vh;
     }
 }
 @media only screen and (max-width: 585px) {
@@ -18,13 +33,23 @@
         width: 70%;
     }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
     #ContainerPrimario {
         height: 105vh;
+    }
+}
+@media only screen and (max-width: 390px) {
+    #ContainerPrimario {
+        height: 113vh;
     }
 }
 @media only screen and (max-width: 380px) {
     #ContainerPrimario {
         height: 140vh;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #ContainerPrimario {
+        height: 125vh;
     }
 }
