@@ -18,3 +18,22 @@
         border-radius: var(--vendex-radius);
     }
 /*Pagina principal*/    
+/*Vendex*/
+    #Tempo {
+        width: 40% !important;
+    }
+/*Vendex*/
+/*Carrossel*/
+    .carousel-indicators {
+        bottom: -35px !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 2% !important;
+    }
+    .carousel-control-next {
+        right: -20px !important;
+    }
+    .carousel-control-prev {
+        left: -20px !important;
+    }
+/*Carrossel*/
